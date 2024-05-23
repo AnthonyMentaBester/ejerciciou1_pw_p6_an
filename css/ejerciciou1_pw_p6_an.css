@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    border: 2px dashed mediumslateblue;
+    border-radius: 10px;
+}
+.pokemon {
+    margin: 1px;
+    padding: 0px;
+    margin-top: 20px;
+    border: 3px solid yellow;
+}
+.opciones{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5px, 5px);
+    background-color: rgb(196, 196, 196);
+}
+
+.botones{
+
+    margin: 5px;
+    background-color: white;
+    color: rgb(45, 45, 70);
+    border-radius: 5px;
+   
+}
+#idmensaje{
+    margin: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 20px;
+    border: 1px solid rgb(143, 143, 143);
+    font-family: 'Times New Roman', Times, serif;
+
+}

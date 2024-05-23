@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejerciciou1_pw_p6_an</title>
+    <link rel="stylesheet" href="/css/ejerciciou1_pw_p6_an.css">
+    <script src="/js/ejerciciou1_pw_p6_an.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="juego">
+            <header>
+                <div class="menu">
+                    <p>Puntaje: </p>
+                    
+                    <p>Intentos: </p>
+
+                    <p>Selecciona el nombre del pokemon correcto: </p>
+                </div>   
+            </header>
+
+            <nav></nav>
+            <section>
+                <div class="pokemon">
+                    <img id="img" src="/img/pnegro.jpg" alt="">
+                </div>
+
+                <div class="opciones">
+                    <button class="botones" id="op1" onclick="opcion('keldeo-ordinary')">keldeo-ordinary</button>
+                    <button class="botones" id="op2" onclick="opcion('drilbur')">drilbur</button>
+                    <button class="botones" id="op3" onclick="opcion('ninjask')">ninjask</button>
+                    <button class="botones" id="op4" onclick="opcion('excadrill')">excadrill</button>
+                    
+
+                    <input class="mesaje" id="idmensaje" type="text">
+
+                    <button class="botones" id="op5" onclick="resetear()">Reiniciar Juego</button>
+                </div>
+
+            </section>
+            <aside></aside>
+            <footer></footer>
+
+        </div>
+    </div>
+</body>
+</html>
